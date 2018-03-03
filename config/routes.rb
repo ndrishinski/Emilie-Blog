@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get "portfolio", to:'pages#portfolio'
 
+  get "home", to: 'pages#home'
+
   resources :blogs
 
   root "pages#home"
